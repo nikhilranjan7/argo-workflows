@@ -7,3 +7,5 @@ metadata:
     workflows.argoproj.io/configmap-type: Parameter
 data:
   msg: 'hello world'
+  config: |
+    containerRuntimeExecutor: k8sapi
